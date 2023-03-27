@@ -19,10 +19,9 @@ public class Quiz03 {
 			if(cutWord[i] == null) {
 				count++;
 			}
+			
 		}
-		
 		System.out.println(count);
-		
 	}
 
 }
