@@ -1,6 +1,6 @@
 class Solution {
     public String solution(String phone_number) {
-        
+        /*
         // 뒷 4자리
         String backNumber = phone_number.substring(phone_number.length()-4, phone_number.length());
         
@@ -13,6 +13,14 @@ class Solution {
         
         String answer = phone_number + backNumber;
         
+        return answer;
+        */
+        String answer = "";
+        for(int i = 0; i < phone_number.length()-4; i++){
+            answer += "*";
+        }
+        
+        answer += phone_number.substring(phone_number.length()-4);
         return answer;
     }
 }
