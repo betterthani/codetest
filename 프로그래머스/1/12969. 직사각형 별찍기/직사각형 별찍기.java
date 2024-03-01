@@ -6,11 +6,9 @@ class Solution {
         int a = sc.nextInt();
         int b = sc.nextInt();
         
-        String [][] starArr = new String[b][a];
         for(int i = 0; i < b; i++){
             for(int j = 0; j < a; j++){
-                starArr[i][j] = "*";
-                System.out.print(starArr[i][j]);
+                System.out.print("*");
             }
             System.out.println();
         }
