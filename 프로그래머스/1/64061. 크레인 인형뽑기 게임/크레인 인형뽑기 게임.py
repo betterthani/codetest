@@ -2,9 +2,7 @@ from collections import deque
 def solution(board, moves):
     answer = 0
     d = deque()
-    n, m = len(board), len(board[0])
-
-    #top_element = d[-1]
+    n = len(board)
 
     for i in moves:
         for j in range(n) :
